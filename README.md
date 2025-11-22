@@ -5,7 +5,7 @@ A simple and elegant Spring Boot web application for managing bank accounts. The
 
 ---
 
-## 🚀 Features
+## 🚀 Features 
 
 - 🔍 **Search Account** by account number  
 - ➕ **Add New Account** with:
