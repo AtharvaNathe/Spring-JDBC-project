@@ -1,5 +1,5 @@
 # Spring-JDBC-project
-# 🏦 Bank Account Management System
+# 🏦 Bank Account Management System   
 
 A simple and elegant Spring Boot web application for managing bank accounts. The system supports basic operations like searching for an account, adding a new account, and closing (deleting) an existing account.
 
