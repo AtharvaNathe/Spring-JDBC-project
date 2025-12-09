@@ -77,7 +77,6 @@ Or from your IDE (IntelliJ / Eclipse): Run ProjectController.java as a Spring Bo
 ![Screenshot 2025-06-19 124034](https://github.com/user-attachments/assets/ae08e071-af9a-4d62-8a74-2e4668550b4c)
 
 
-### 1. Clone the repository
-👨‍💻 Author
+### 👨‍💻 Author
 Atharva Nathe
 Developed with Spring Boot + MySQL + JSP + Bootstrap
