@@ -37,7 +37,7 @@ public class ProjectController {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("//Your connection string goes here");
+			con=DriverManager.getConnection("/*Your connection string goes here*/");
 			pst=con.prepareStatement("select accnm,balance from accounts where accno=?");
 			pst.setInt(1, accountNumber);
 			rs=pst.executeQuery();
@@ -92,7 +92,7 @@ public class ProjectController {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://mysql-1a7c146b-demo07python.c.aivencloud.com:13875/demopython?user=avnadmin&password=AVNS_1oOjGTIkf6chPnto32M");
+			con=DriverManager.getConnection("/*Your connection string goes here too*/");
 			pst=con.prepareStatement("insert into accounts values(?,?,?,?)");
 			pst.setInt(1, obj.getAccountNumber());
 			pst.setString(2, obj.getAccountName());
@@ -129,7 +129,7 @@ public class ProjectController {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://mysql-1a7c146b-demo07python.c.aivencloud.com:13875/demopython?user=avnadmin&password=AVNS_1oOjGTIkf6chPnto32M");
+			con=DriverManager.getConnection("/*And your connection string goes here also*/");
             pst=con.prepareStatement("delete from accounts where accno=?");
             pst.setInt(1, accountNumber);
             int n=pst.executeUpdate();
@@ -150,4 +150,5 @@ public class ProjectController {
 		return "NewAccountStatus.jsp";
 	}
 }
+
 
