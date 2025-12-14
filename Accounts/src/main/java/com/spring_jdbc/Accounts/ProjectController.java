@@ -37,7 +37,7 @@ public class ProjectController {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://mysql-1a7c146b-demo07python.c.aivencloud.com:13875/demopython?user=avnadmin&password=AVNS_1oOjGTIkf6chPnto32M");
+			con=DriverManager.getConnection("//Your connection string goes here");
 			pst=con.prepareStatement("select accnm,balance from accounts where accno=?");
 			pst.setInt(1, accountNumber);
 			rs=pst.executeQuery();
@@ -150,3 +150,4 @@ public class ProjectController {
 		return "NewAccountStatus.jsp";
 	}
 }
+
