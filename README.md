@@ -1,5 +1,13 @@
 # Spring-JDBC-project
-# 🏦 Bank Account Management System   
+# 🏦 Bank Account Management System 
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17+-ED8B00?logo=java&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-JDBC-6DB33F?logo=springboot&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/JSP-Web%20Pages-007396?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Maven-Build%20Tool-C71A36?logo=apachemaven&logoColor=white&style=for-the-badge"/>
+</p>
 
 A simple and elegant Spring Boot web application for managing bank accounts. The system supports basic operations like searching for an account, adding a new account, and closing (deleting) an existing account.
    
