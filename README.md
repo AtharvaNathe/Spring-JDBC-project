@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Maven-Build%20Tool-C71A36?logo=apachemaven&logoColor=white&style=for-the-badge"/>
 </p>
 
-A simple and elegant Spring Boot web application for managing bank accounts. The system supports basic operations like searching for an account, adding a new account, and closing (deleting) an existing account.
+A simple and elegant Spring Boot web  application for managing bank accounts. The system supports basic operations like searching for an account, adding a new account, and closing (deleting) an existing account.
    
 ---
 
