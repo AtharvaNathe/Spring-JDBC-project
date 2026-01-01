@@ -1,6 +1,6 @@
 # Spring-JDBC-project 
 # 🏦 Bank Account Management System 
-<p align="center">
+<p align="center"> 
   <img src="https://img.shields.io/badge/Java-17+-ED8B00?logo=java&logoColor=white&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Spring%20Boot-JDBC-6DB33F?logo=springboot&logoColor=white&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white&style=for-the-badge"/>
